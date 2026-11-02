@@ -4,7 +4,7 @@ Sitio institucional y catálogo: **26 páginas, 17 entradas y23 documentos PDF**
 
 - Repositorio: https://github.com/Scsolucionesconectadas/I-Solution
 - Fuente local: `C:\Proyectos\I-Solution`
-- Demo prevista/autorizada: https://isolution-demo.scsolucionesconectadas.com.ar/
+- Demo pública: https://isolution-demo.scsolucionesconectadas.com.ar/
 - Cloudflare Workers Static Assets, Worker `isolution-demo`, separado de LMR.
 
 ## Desarrollo

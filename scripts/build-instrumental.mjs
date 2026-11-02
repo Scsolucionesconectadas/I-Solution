@@ -132,7 +132,7 @@ export async function buildInstrumental(input = {}) {
       }
     } else console.warn('Catálogo PDF omitido: regenerar con scripts/create-instrumental-catalog.py para los datos actuales.');
   }
-  if (input.requireDocuments && (!cataloguePdf || Object.keys(sheets).length !== products.length)) throw new Error('Documentación desactualizada: regenerar fichas y catálogo antes de publicar la demo.');
+  if (input.requireDocuments && (!cataloguePdf || Object.keys(sheets).length !== products.length || products.some(product => !sheets[product.slug]))) throw new Error('Documentación desactualizada: regenerar fichas y catálogo antes de publicar la demo.');
   const ctx={site,contact,products,institution,copy,documentSizes,images,cataloguePdf,catalogueCover,videoPosters,href:path=>`${basePath}${path}`};
   const sitePages = pages(products,copy);
   if(sitePages.some(page=>!page.title||!page.description)) throw new Error('Faltan títulos o descripciones editoriales.');

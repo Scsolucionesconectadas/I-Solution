@@ -6,7 +6,7 @@
 
 Instrumentación industrial, información institucional/equipo/servicios y catálogo con fichas/documentos.26 HTML,17 entradas (seis configuraciones y once líneas),23 PDF y un video. Estética vigente conservada.
 
-Demo autorizada: https://isolution-demo.scsolucionesconectadas.com.ar/, pública noindex, transporte de correo vacío. Worker isolution-demo con GitHub main y comandos de check/test/build/deploy; publicación en configuración, registrar evidencia real al cerrar en [[13_Deploy_Infraestructura]].
+Demo publicada: https://isolution-demo.scsolucionesconectadas.com.ar/, pública noindex, transporte de correo vacío. Worker isolution-demo con GitHub main y comandos de check/test/build/deploy; commit1c543e2, build7f21997f correcto y versión195e170f lista. Ver [[13_Deploy_Infraestructura]].141 recursos y23 PDF correctos;18 casos responsive sin desbordes, imágenes rotas o errores JavaScript.
 
 ## Stack y ejecución
 

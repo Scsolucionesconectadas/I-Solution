@@ -10,3 +10,4 @@
 - JSON comercial y PDF preservan bytes mediante .gitattributes; fingerprints detectan documentos obsoletos. Tras cambios de datos/fotos, regenerar fichas/catálogo/portada y revisar. build:demo falla si la documentación está desactualizada.
 - npm run check, npm test y npm run build:demo antes de commit/push autorizado. Verificar check remoto y URL después. No force-push ni credenciales en el repo. Git usa helper local con sesión aislada de la cuenta autorizada, sin cambiar credenciales globales.
 - SOLUTION-GROUP conserva archivo/planning y procedencia interna. No editar su copia histórica como fuente activa ni mantener sincronización bidireccional silenciosa.
+- Publicación inicial comprobada02/11/2026: commit1c543e2, build7f21997f correcto y versión195e170f-fd6d-49d8-8857-b8bd957c32ea.141 recursos200/noindex,23 PDF idénticos por SHA y18 casos responsive sin roturas/errores. Revisar check remoto tras cada nuevo push; las notas finales se suben en segundo commit.
