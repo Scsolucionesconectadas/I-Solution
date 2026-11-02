@@ -1,6 +1,6 @@
 # i-Solution: repositorio independiente
 
-- Publicación autorizada02/11/2026: el usuario pidió subir las mejoras locales a la demo pública; seguir docs/obsidian/15_Actualizacion_Demo_Publica.md y verificar commit/check/URL. Conserva prohibiciones de envío/activación/indexación y dominio final; no cambiar plan o DNS por esta actualización.
+- Actualización pública verificada02/11/2026: mejoras14 publicadas con commitdbd21f0, check Cloudflare success y build7e5df2c2-e4e8-4a4c-b886-c6ee5f8a9659. Leer docs/obsidian/15_Actualizacion_Demo_Publica.md. Conservar noindex/endpoint vacío; cero envíos o activaciones. Material y puntos5/6 pendientes. El estado local histórico de14 queda superado por esta publicación.
 
 - Alcance vigente02/11/2026: implementados localmente los puntos 1–4; leer docs/obsidian/14_Funcionalidad_y_Calidad.md. Puntos 5/6 diferidos; no se hizo push/deploy en esta sesión. 22 pruebas correctas. Mantener envío vacío en copias de revisión; npm run dev puede usar el endpoint fuente. No hacer envíos/activaciones ni tratar la aceptación simulada como recepción real.
 

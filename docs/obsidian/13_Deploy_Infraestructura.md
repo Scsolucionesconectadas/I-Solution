@@ -1,5 +1,9 @@
 # Publicación
 
+## 02/11/2026 — Mejoras publicadas y verificadas
+
+Commitdbd21f0, check Cloudflare completed/success, build7e5df2c2-e4e8-4a4c-b886-c6ee5f8a9659. 142 recursos públicos correctos y revisión conjunta de62 casos responsive. Evidencia en [[15_Actualizacion_Demo_Publica]]. Transporte vacío/noindex conservados; sin correos/activaciones o cambios de DNS/plan/dominio final. Documentación de cierre sincronizada mediante un commit posterior sin cambios funcionales.
+
 ## 02/11/2026 — Actualización de mejoras autorizada
 
 Publicar [[14_Funcionalidad_y_Calidad]] mediante el flujo main → isolution-demo. Ver [[15_Actualizacion_Demo_Publica]] para el resultado vigente. Conservar endpoint vacío/noindex; no modificar dominios finales o servicio de correo.

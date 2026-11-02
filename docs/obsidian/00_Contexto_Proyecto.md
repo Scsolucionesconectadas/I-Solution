@@ -1,8 +1,8 @@
 # Contexto de i-Solution
 
-## 02/11/2026 — Actualización pública autorizada
+## 02/11/2026 — Actualización pública verificada
 
-El usuario solicitó publicar las mejoras locales. [[15_Actualizacion_Demo_Publica]] registra alcance y verificación de esta publicación; tiene prioridad sobre el estado local histórico de [[14_Funcionalidad_y_Calidad]]. Correo apagado y noindex conservados; dominio final/operación ampliada pendientes.
+Mejoras publicadas en https://isolution-demo.scsolucionesconectadas.com.ar/: commitdbd21f0, check Cloudflare success y build7e5df2c2-e4e8-4a4c-b886-c6ee5f8a9659. [[15_Actualizacion_Demo_Publica]] registra evidencia y prevalece sobre el estado local histórico de14. Transporte vacío/noindex conservados; material, recepción real y puntos5/6 pendientes.
 
 ## 02/11/2026 — Funcionalidad y calidad locales
 
