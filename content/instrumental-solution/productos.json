@@ -1,0 +1,1171 @@
+[
+  {
+    "slug": "radar-nivel-80-120-ghz",
+    "name": "Radar de nivel",
+    "series": "Serie 80/120 GHz",
+    "brand": "i-Solution",
+    "family": "Nivel",
+    "image": "radar",
+    "imageAlt": "Radar de nivel de la serie 80/120 GHz, con carcasa amarilla y conexión bridada",
+    "summary": "Medición continua de nivel sin contacto. Una alternativa para evaluar en tanques y depósitos de líquidos o sólidos, de acuerdo con las condiciones del proceso.",
+    "features": [
+      "Medición sin contacto",
+      "Líquidos y sólidos",
+      "Documentación disponible"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Nivel de líquidos y sólidos"
+      ],
+      [
+        "Tecnología",
+        "FMCW; radar de onda milimétrica sin contacto"
+      ],
+      [
+        "Frecuencia comercial",
+        "80 GHz o 120 GHz, según versión"
+      ],
+      [
+        "Antena",
+        "Lente dieléctrica; materiales PTFE o PEEK según modelo"
+      ],
+      [
+        "Rango máximo de la serie",
+        "Hasta 70 m en sólidos y 150 m en líquidos, según versión"
+      ],
+      [
+        "Precisión",
+        "Desde ±1 mm; verificar modelo y condiciones del medio"
+      ],
+      [
+        "Ángulo de haz",
+        "Desde 3°, según antena y versión"
+      ],
+      [
+        "Temperatura de proceso",
+        "Hasta +280 °C en modelos especiales con PEEK"
+      ],
+      [
+        "Presión de proceso",
+        "Hasta 4,0 MPa (40 bar), según configuración"
+      ],
+      [
+        "Comunicación",
+        "Opciones 4–20 mA, HART o RS485 Modbus"
+      ],
+      [
+        "Protección",
+        "IP67; ejecución Ex según versión y certificado aplicable"
+      ],
+      [
+        "Conexiones",
+        "Bridadas o roscadas según configuración"
+      ]
+    ],
+    "selectionNote": "El rango, la precisión, las condiciones de proceso y las conexiones dependen de la versión. Consultanos para seleccionar la configuración y la documentación correspondientes a tu aplicación.",
+    "documents": [
+      {
+        "id": "ficha",
+        "title": "Guía técnica · Radar 76–81 GHz",
+        "type": "Ficha técnica",
+        "language": "Inglés",
+        "pages": 12,
+        "file": "radar-80-ficha.pdf",
+        "description": "Características e instalación del radar de 76–81 GHz descrito en este documento.",
+        "source": "https://solution.com.ar/wp-content/uploads/2025/08/80G-Radar-Level-Meter.pdf"
+      },
+      {
+        "id": "manual",
+        "title": "Manual · Serie 80/120 GHz",
+        "type": "Manual de producto",
+        "language": "Español",
+        "pages": 27,
+        "file": "radar-80-120-manual.pdf",
+        "description": "Presentación de la serie, instalación, conexiones y parámetros por versión.",
+        "source": "https://solution.com.ar/wp-content/uploads/2025/08/IS-espa120-80G-FM-Radar-Level-Meter.pdf"
+      },
+      {
+        "id": "programacion",
+        "title": "Guía de configuración · Radar 80 GHz",
+        "type": "Puesta en marcha",
+        "language": "Inglés",
+        "pages": 16,
+        "file": "radar-80-programacion.pdf",
+        "description": "Instrucciones de programación y ajuste incluidas en la guía del instrumento.",
+        "source": "https://solution.com.ar/wp-content/uploads/2025/08/80G_FM_Radar_Level_Meter_Commissioning_instructions1.pdf"
+      }
+    ],
+    "source": "https://solution.com.ar/producto/radar-de-nivel-de-onda-milimetrica-serie-80-120-ghz/",
+    "description": [
+      "Radar de onda milimétrica para medición continua de nivel sin contacto en líquidos y sólidos. La serie comercial reúne versiones de 80 GHz y 120 GHz con antena de lente dieléctrica.",
+      "El haz estrecho permite evaluar su instalación en tanques con estructuras internas o espacios reducidos. La frecuencia, los materiales, la electrónica y los límites de proceso se seleccionan de acuerdo con la versión y la aplicación."
+    ],
+    "applications": [
+      "Medición en tanques con agitación, baffles o estructuras internas.",
+      "Depósitos de diámetro reducido o con espacio de instalación limitado.",
+      "Líquidos y sólidos pulverulentos; evaluar polvo, vapores y espuma.",
+      "Aplicaciones de alta temperatura o presión con una versión compatible.",
+      "Procesos alimenticios y farmacéuticos, verificando materiales y conexión."
+    ],
+    "comparison": {
+      "title": "Compará tecnologías de radar de nivel.",
+      "note": "Referencias de las series comerciales. El alcance, la precisión y los límites no corresponden a todas las versiones; confirmá la ficha del equipo seleccionado.",
+      "headers": [
+        "Característica",
+        "Radar 26 GHz",
+        "Radar de lente 80/120 GHz"
+      ],
+      "rows": [
+        [
+          "Antena",
+          "Corneta, con dimensiones según versión",
+          "Lente dieléctrica compacta"
+        ],
+        [
+          "Haz de referencia",
+          "8° a 20°, según modelo",
+          "3° a 6°, según versión"
+        ],
+        [
+          "Precisión de referencia",
+          "±3 mm en líquidos; ±10 a ±15 mm en sólidos",
+          "Desde ±1 mm, según modelo y aplicación"
+        ],
+        [
+          "Alcance de referencia",
+          "Hasta 30 m en líquidos y 70 m en sólidos",
+          "Hasta 150 m en líquidos y 70 m en sólidos"
+        ],
+        [
+          "Instalación",
+          "Tanques y silos según condiciones del medio",
+          "Evaluación en tanques con obstáculos o espacios reducidos"
+        ],
+        [
+          "Mantenimiento",
+          "Depende del proceso y la acumulación sobre la antena",
+          "La superficie de la lente puede facilitar la limpieza"
+        ],
+        [
+          "Selección económica",
+          "Comparar configuración y alcance requerido",
+          "Evaluar precisión, montaje y condiciones del proceso"
+        ]
+      ]
+    },
+    "gallery": []
+  },
+  {
+    "slug": "radar-nivel-26-ghz",
+    "name": "Radar de nivel",
+    "series": "Serie 26 GHz",
+    "brand": "i-Solution",
+    "family": "Nivel",
+    "image": "radar26",
+    "imageAlt": "Radar de nivel de la serie 26 GHz, con antena de corneta",
+    "summary": "Medición continua de nivel sin contacto para líquidos y sólidos. Una línea con antenas de corneta y diferentes versiones para tanques y silos.",
+    "features": [
+      "Medición sin contacto",
+      "Antena de corneta",
+      "Versiones para líquidos y sólidos"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Nivel"
+      ],
+      [
+        "Frecuencia",
+        "26 GHz"
+      ],
+      [
+        "Antena",
+        "Corneta; diámetros de referencia de 46 a 242 mm según versión"
+      ],
+      [
+        "Rango en líquidos",
+        "Hasta 30 m, según modelo"
+      ],
+      [
+        "Rango en sólidos",
+        "Hasta 70 m, según modelo"
+      ],
+      [
+        "Precisión de referencia",
+        "±3 mm en líquidos; ±10 a ±15 mm en sólidos"
+      ],
+      [
+        "Alimentación",
+        "24 VDC; verificar electrónica y conexión del modelo"
+      ],
+      [
+        "Comunicación",
+        "Opciones 4–20 mA, HART o RS485 Modbus"
+      ],
+      [
+        "Temperatura de proceso",
+        "−40 a +150 °C estándar; hasta +250 °C en versiones con junta Kalrez"
+      ],
+      [
+        "Presión de proceso",
+        "−0,1 a 4,0 MPa, según versión"
+      ],
+      [
+        "Protección",
+        "IP67; ejecución Exia/Exd según versión y certificado"
+      ],
+      [
+        "Conexión de referencia",
+        "Brida DN80 PN16; otras conexiones según modelo"
+      ]
+    ],
+    "selectionNote": "Los alcances y las condiciones de trabajo varían entre modelos de la serie. Consultanos por la versión y la documentación adecuadas para tu instalación.",
+    "documents": [
+      {
+        "id": "manual",
+        "title": "Documentación técnica · Radar 26 GHz",
+        "type": "Ficha y operación",
+        "language": "Inglés",
+        "pages": 23,
+        "file": "radar-26-manual.pdf",
+        "description": "Características, versiones e instrucciones del radar de nivel de la serie 26 GHz.",
+        "source": "https://solution.com.ar/wp-content/uploads/2025/08/26G-Radar-Isolution.pdf"
+      }
+    ],
+    "video": {
+      "file": "radar-26.mp4",
+      "title": "Principio de funcionamiento del radar de nivel",
+      "source": "https://solution.com.ar/wp-content/uploads/2025/08/Radar-de-Nivel-1.mp4"
+    },
+    "source": "https://solution.com.ar/producto/radar-de-nivel/",
+    "description": [
+      "Radar de nivel sin contacto de 26 GHz con antena de corneta. La serie dispone de versiones para medición en tanques, silos, reactores y depósitos de líquidos o sólidos.",
+      "La selección considera el medio, el tamaño de antena, el alcance y las condiciones de temperatura y presión. Los límites de una versión no se extienden automáticamente al resto de la serie."
+    ],
+    "applications": [
+      "Tanques de almacenamiento de líquidos y reactores.",
+      "Silos de sólidos granulares o en polvo.",
+      "Procesos químicos, petroquímicos y de alimentos y bebidas.",
+      "Minería, cemento y plantas de tratamiento de agua."
+    ],
+    "gallery": []
+  },
+  {
+    "slug": "caudalimetro-electromagnetico-sanitario",
+    "name": "Caudalímetro electromagnético",
+    "series": "Sanitario · DN50",
+    "model": "HHWK-50B2C5K1S1D2F1U2V1",
+    "brand": "i-Solution",
+    "family": "Caudal",
+    "image": "caudal",
+    "imageAlt": "Instrumento i-Solution del caudalímetro electromagnético sanitario",
+    "summary": "Medición de caudal para aplicaciones sanitarias e industriales. La configuración DN50 incorpora recubrimiento PFA, electrodos 316L y comunicación Modbus.",
+    "features": [
+      "Configuración DN50",
+      "Recubrimiento PFA",
+      "RS485 Modbus y frecuencia"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Caudal"
+      ],
+      [
+        "Modelo",
+        "HHWK-50B2C5K1S1D2F1U2V1"
+      ],
+      [
+        "Diámetro nominal",
+        "DN50 (2 pulgadas)"
+      ],
+      [
+        "Recubrimiento / electrodos",
+        "PFA / acero inoxidable 316L"
+      ],
+      [
+        "Rango de la configuración",
+        "3,35 a 33,5 m³/h"
+      ],
+      [
+        "Precisión publicada",
+        "±0,5 %"
+      ],
+      [
+        "Salida",
+        "RS485 Modbus y frecuencia"
+      ],
+      [
+        "Alimentación",
+        "24 VDC"
+      ],
+      [
+        "Frecuencia de salida",
+        "Hasta 2000 Hz"
+      ],
+      [
+        "Temperatura del fluido",
+        "Hasta 80 °C"
+      ],
+      [
+        "Presión nominal",
+        "1,36 MPa"
+      ],
+      [
+        "Temperatura ambiente",
+        "−15 a +50 °C"
+      ]
+    ],
+    "selectionNote": "Consultá la compatibilidad de los materiales, el fluido, la conexión y las condiciones de proceso para tu configuración. El manual corresponde a la línea de caudalímetros electromagnéticos.",
+    "documents": [
+      {
+        "id": "manual",
+        "title": "Manual · Caudalímetro electromagnético",
+        "type": "Manual de producto",
+        "language": "Inglés",
+        "pages": 32,
+        "file": "caudal-electromagnetico-manual.pdf",
+        "description": "Descripción, instalación y operación de la línea de caudalímetros electromagnéticos.",
+        "source": "https://solution.com.ar/wp-content/uploads/2025/06/2EMF-EN-Electromagnetic-Flowmeter1.pdf"
+      }
+    ],
+    "source": "https://solution.com.ar/producto/caudalimetro-electromagnetico-sanitario/",
+    "description": [
+      "Caudalímetro electromagnético sanitario de diámetro DN50 para medición en procesos industriales. La configuración presenta recubrimiento PFA y electrodos en acero inoxidable 316L.",
+      "La electrónica dispone de comunicación RS485 Modbus y salida de frecuencia. La compatibilidad con el fluido, las conexiones y los requisitos sanitarios se revisa para cada instalación."
+    ],
+    "applications": [
+      "Medición de caudal en procesos sanitarios e industriales.",
+      "Aplicaciones con líquidos conductivos compatibles con PFA y 316L.",
+      "Integración en sistemas de control mediante RS485 Modbus o frecuencia."
+    ],
+    "gallery": [
+      {
+        "image": "caudal-vista-2",
+        "alt": "Caudalímetro electromagnético sanitario, vista del cuerpo y conexión",
+        "caption": "Cuerpo y conexión al proceso"
+      },
+      {
+        "image": "caudal-vista-3",
+        "alt": "Placa identificatoria del caudalímetro electromagnético de la configuración presentada",
+        "caption": "Identificación del equipo"
+      }
+    ]
+  },
+  {
+    "slug": "programador-siemens",
+    "name": "Programador Siemens",
+    "series": "Configuración de instrumentos",
+    "model": "7ML58302AH",
+    "brand": "Siemens",
+    "family": "Configuración",
+    "image": "programador",
+    "imageAlt": "Programador portátil Siemens con teclado de configuración",
+    "summary": "Programador portátil para la configuración de instrumentos de nivel de la línea SITRANS. Consultá la compatibilidad con el transmisor instalado.",
+    "features": [
+      "Formato portátil",
+      "Configuración de instrumentos",
+      "Compatibilidad según modelo SITRANS"
+    ],
+    "parameters": [
+      [
+        "Función",
+        "Configuración y puesta en marcha de instrumentos SITRANS"
+      ],
+      [
+        "Marca",
+        "Siemens"
+      ],
+      [
+        "Referencia",
+        "7ML5830-2AH"
+      ],
+      [
+        "Formato",
+        "Programador portátil con teclado"
+      ],
+      [
+        "Modelos de referencia",
+        "SITRANS LR200, LR250, LR260, LR400, LR460, LR560, Probe LR y Probe LU; verificar compatibilidad"
+      ],
+      [
+        "Peso neto",
+        "0,168 kg, según catálogo Siemens"
+      ],
+      [
+        "Protección para zonas clasificadas",
+        "Versión intrínsecamente segura; aprobaciones CSA/FM/ATEX según identificación y certificado"
+      ],
+      [
+        "Alimentación y ambiente",
+        "Verificar en las instrucciones de servicio del programador"
+      ]
+    ],
+    "selectionNote": "Antes de seleccionar el programador, indicá el modelo y la versión del transmisor. Consultá la documentación y las condiciones de uso correspondientes al equipo.",
+    "documents": [],
+    "source": "https://solution.com.ar/producto/programador-siemens/",
+    "description": [
+      "Programador portátil Siemens para configurar y poner en marcha instrumentos de nivel SITRANS. Su formato permite realizar ajustes directamente en campo.",
+      "La referencia 7ML5830-2AH corresponde a una versión intrínsecamente segura. La compatibilidad y las condiciones de uso se verifican con el manual del transmisor y la documentación de aprobación aplicable."
+    ],
+    "applications": [
+      "Configuración de parámetros en instrumentos de nivel compatibles.",
+      "Puesta en marcha en tanques, silos y reactores.",
+      "Procesos químicos, petroquímicos, farmacéuticos y alimenticios."
+    ],
+    "gallery": [
+      {
+        "image": "programador-vista-2",
+        "alt": "Vista posterior del programador portátil Siemens",
+        "caption": "Vista posterior e identificación"
+      }
+    ]
+  },
+  {
+    "slug": "transmisor-presion-smart",
+    "name": "Transmisor de presión Smart",
+    "series": "Medición y control de presión",
+    "model": "SM315TGP4SF22AM7M4Fa",
+    "brand": "i-Solution",
+    "family": "Presión",
+    "image": "presion",
+    "imageAlt": "Transmisor de presión Smart i-Solution",
+    "summary": "Transmisor inteligente para medición de presión en procesos industriales. La configuración presentada ofrece salida de 4–20 mA con comunicación HART.",
+    "features": [
+      "Salida 4–20 mA",
+      "Comunicación HART",
+      "Alimentación 24 VDC"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Presión"
+      ],
+      [
+        "Modelo",
+        "SM315TGP4SF22AM7M4Fa"
+      ],
+      [
+        "Rango de la configuración",
+        "−1 a 10 bar"
+      ],
+      [
+        "Precisión publicada",
+        "0,2 %"
+      ],
+      [
+        "Salida",
+        "4–20 mA con HART"
+      ],
+      [
+        "Alimentación",
+        "24 VDC"
+      ],
+      [
+        "Conexión al proceso",
+        "G 1/2"
+      ],
+      [
+        "Presión estática máxima",
+        "15 bar"
+      ]
+    ],
+    "selectionNote": "El rango y la conexión indicados corresponden a la configuración presentada. Consultanos para verificar el equipo adecuado y solicitar su documentación.",
+    "documents": [],
+    "source": "https://solution.com.ar/producto/transmisor-de-presion-diferencial-smart/",
+    "description": [
+      "Transmisor inteligente de presión para el monitoreo de procesos industriales. La configuración SM315TGP4SF22AM7M4Fa ofrece un rango de −1 a 10 bar y señal de 4–20 mA con comunicación HART.",
+      "La alimentación de 24 VDC y la conexión roscada G 1/2 permiten evaluar su integración en líneas de proceso y sistemas de control SCADA o PLC."
+    ],
+    "applications": [
+      "Monitoreo y control de presión en plantas industriales.",
+      "Integración con PLC o SCADA mediante una interfaz HART compatible."
+    ],
+    "gallery": []
+  },
+  {
+    "slug": "transmisor-presion-smart-alta-temperatura",
+    "name": "Transmisor de presión Smart",
+    "series": "Para altas temperaturas",
+    "model": "SM315TGP6SF22AM7M4Fa",
+    "brand": "i-Solution",
+    "family": "Presión",
+    "image": "presion-alta",
+    "imageAlt": "Transmisor de presión Smart para aplicaciones de alta temperatura",
+    "summary": "Transmisor de presión para aplicaciones de alta temperatura. Integra señal analógica y comunicación HART para sistemas de control industrial.",
+    "features": [
+      "Aplicaciones de alta temperatura",
+      "Salida 4–20 mA con HART",
+      "Configuración de 0 a 100 bar"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Presión"
+      ],
+      [
+        "Modelo",
+        "SM315TGP6SF22AM7M4Fa"
+      ],
+      [
+        "Rango de la configuración",
+        "0 a 100 bar"
+      ],
+      [
+        "Precisión publicada",
+        "0,2 %"
+      ],
+      [
+        "Salida",
+        "4–20 mA con HART"
+      ],
+      [
+        "Alimentación",
+        "24 VDC"
+      ],
+      [
+        "Conexión",
+        "1/2 pulgada BSP"
+      ],
+      [
+        "Temperatura de trabajo",
+        "Consultar el límite de la configuración requerida"
+      ],
+      [
+        "Presión estática máxima",
+        "120 bar"
+      ],
+      [
+        "Código de parte de referencia",
+        "2402H3014"
+      ]
+    ],
+    "selectionNote": "Indicá la temperatura y la presión de tu proceso para consultar por la configuración y sus materiales. El límite de temperatura debe verificarse para el equipo seleccionado.",
+    "documents": [],
+    "source": "https://solution.com.ar/producto/transmisor-de-presion-diferencial-smart-para-altas-temperaturas/",
+    "description": [
+      "Transmisor de presión Smart para aplicaciones de alta presión y temperatura. La configuración SM315TGP6SF22AM7M4Fa trabaja en un rango de 0 a 100 bar y dispone de salida de 4–20 mA con comunicación HART.",
+      "Su conexión de 1/2 pulgada BSP permite evaluar el montaje en líneas de vapor, gases o líquidos. El límite térmico y la compatibilidad de los materiales se confirman para la configuración seleccionada."
+    ],
+    "applications": [
+      "Control de procesos con altas presiones y temperaturas.",
+      "Supervisión de vapor, gases o líquidos en industrias química, energética o alimenticia.",
+      "Integración en PLC o SCADA con una interfaz HART compatible."
+    ],
+    "gallery": [
+      {
+        "image": "presion-alta-vista-2",
+        "alt": "Transmisor de presión Smart para alta temperatura, vista lateral",
+        "caption": "Vista lateral de la conexión"
+      },
+      {
+        "image": "presion-alta-vista-3",
+        "alt": "Transmisor de presión Smart para alta temperatura, vista del cuerpo",
+        "caption": "Cuerpo y disipador"
+      }
+    ]
+  },
+  {
+    "slug": "caudalimetros-electromagneticos",
+    "kind": "line",
+    "name": "Caudalímetros electromagnéticos",
+    "series": "Línea de medición de caudal",
+    "brand": "",
+    "family": "Caudal",
+    "image": "linea-electromagnetico",
+    "imageAlt": "Caudalímetros electromagnéticos; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Medición de caudal en líquidos conductivos. Versiones para distintos diámetros, materiales y conexiones de proceso.",
+    "features": [
+      "Líquidos conductivos",
+      "Opciones de materiales",
+      "Versiones según instalación"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Caudal de líquidos conductivos"
+      ],
+      [
+        "Diámetros de la línea",
+        "DN1 a DN2000, según versión"
+      ],
+      [
+        "Recubrimientos",
+        "Teflón, cerámica o caucho duro, según equipo"
+      ],
+      [
+        "Electrodos",
+        "Platino, titanio o acero inoxidable, según configuración"
+      ],
+      [
+        "Conexiones",
+        "Seleccionar según tubería y aplicación"
+      ]
+    ],
+    "selectionNote": "La línea comprende distintas configuraciones. La ficha sanitaria DN50 del catálogo corresponde a un equipo específico; sus rangos y materiales no se extienden al resto de la línea.",
+    "documents": [],
+    "description": [
+      "Medición de caudal en líquidos conductivos. Versiones para distintos diámetros, materiales y conexiones de proceso.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Medición de agua conductiva en procesos industriales.",
+      "Selección de materiales para compatibilidad con el fluido.",
+      "Instalaciones con diferentes diámetros de tubería."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 2
+    }
+  },
+  {
+    "slug": "caudalimetros-vortex",
+    "kind": "line",
+    "name": "Caudalímetros por vórtices",
+    "series": "Gases y vapor",
+    "brand": "",
+    "family": "Caudal",
+    "image": "linea-vortex",
+    "imageAlt": "Caudalímetros por vórtices; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Medición de caudal en gases y vapor, con alternativas de inserción y montaje en línea según las condiciones de la instalación.",
+    "features": [
+      "Gases y vapor",
+      "Montaje en línea o inserción",
+      "Opciones de compensación"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Caudal de gases y vapor"
+      ],
+      [
+        "Tecnología",
+        "Desprendimiento de vórtices"
+      ],
+      [
+        "Montaje",
+        "Bridado o de inserción, según modelo"
+      ],
+      [
+        "Compensación",
+        "Presión y temperatura, según configuración"
+      ],
+      [
+        "Construcción",
+        "Acero inoxidable y opciones para alta temperatura"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Medición de caudal en gases y vapor, con alternativas de inserción y montaje en línea según las condiciones de la instalación.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Seguimiento de consumo de vapor.",
+      "Medición de gases en procesos industriales.",
+      "Aplicaciones con vapor saturado o sobrecalentado, según equipo."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 2
+    }
+  },
+  {
+    "slug": "caudalimetros-ultrasonicos",
+    "kind": "line",
+    "name": "Caudalímetros ultrasónicos",
+    "series": "Portátiles, compactos y clamp-on",
+    "brand": "",
+    "family": "Caudal",
+    "image": "linea-ultrasonico",
+    "imageAlt": "Caudalímetros ultrasónicos; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Medición de caudal con tecnología ultrasónica. Alternativas portátiles, compactas y de montaje externo para diferentes tuberías.",
+    "features": [
+      "Medición ultrasónica",
+      "Equipos portátiles",
+      "Opciones clamp-on"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Caudal"
+      ],
+      [
+        "Diámetros de la línea",
+        "DN25 a DN3000, según versión"
+      ],
+      [
+        "Tuberías",
+        "Metálicas o plásticas, según equipo"
+      ],
+      [
+        "Versiones",
+        "Portátiles y compactas"
+      ],
+      [
+        "Instalación",
+        "En línea o externa clamp-on, según versión"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Medición de caudal con tecnología ultrasónica. Alternativas portátiles, compactas y de montaje externo para diferentes tuberías.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Relevamiento de caudal en instalaciones existentes.",
+      "Mediciones portátiles y verificación de procesos.",
+      "Trasvases y líneas de conducción compatibles."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 2
+    }
+  },
+  {
+    "slug": "caudalimetros-dispersion-termica",
+    "kind": "line",
+    "name": "Caudalímetros de dispersión térmica",
+    "series": "Caudal másico de gases",
+    "brand": "",
+    "family": "Caudal",
+    "image": "linea-termico",
+    "imageAlt": "Caudalímetros de dispersión térmica; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Instrumentos para medir caudal másico y consumo de gases en servicios industriales, con selección según el gas y las condiciones de operación.",
+    "features": [
+      "Caudal másico",
+      "Consumo de gases",
+      "Selección según el medio"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Caudal másico de gases"
+      ],
+      [
+        "Tecnología",
+        "Dispersión térmica"
+      ],
+      [
+        "Medios de referencia",
+        "Aire comprimido, oxígeno y nitrógeno"
+      ],
+      [
+        "Compatibilidad",
+        "Consultar materiales y versión según el gas"
+      ],
+      [
+        "Instalación",
+        "Definir diámetro y condiciones de proceso"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Instrumentos para medir caudal másico y consumo de gases en servicios industriales, con selección según el gas y las condiciones de operación.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Seguimiento de consumo de aire comprimido.",
+      "Medición de nitrógeno en servicios industriales.",
+      "Aplicaciones con oxígeno, verificando compatibilidad del equipo."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 2
+    }
+  },
+  {
+    "slug": "caudalimetros-turbina",
+    "kind": "line",
+    "name": "Caudalímetros a turbina",
+    "series": "Medición para líquidos y gases",
+    "brand": "",
+    "family": "Caudal",
+    "image": "linea-turbina-area",
+    "imageAlt": "Caudalímetros a turbina; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Medición de caudal a turbina para líquidos o gases. Configuraciones con distintas conexiones y materiales según el proceso.",
+    "features": [
+      "Tecnología a turbina",
+      "Líquidos o gases",
+      "Opciones de conexión"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Caudal de líquidos o gases"
+      ],
+      [
+        "Tecnología",
+        "Turbina"
+      ],
+      [
+        "Diámetros de referencia de la línea",
+        "DN4 a DN200; consultar configuración"
+      ],
+      [
+        "Conexiones",
+        "Bridadas o sanitarias, según equipo"
+      ],
+      [
+        "Condiciones de trabajo",
+        "Confirmar temperatura, presión y materiales"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Medición de caudal a turbina para líquidos o gases. Configuraciones con distintas conexiones y materiales según el proceso.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Medición de caudal en líneas de proceso.",
+      "Aplicaciones con conexiones bridadas.",
+      "Procesos con requisitos de conexión sanitaria, según equipo."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 2
+    }
+  },
+  {
+    "slug": "caudalimetros-area-variable",
+    "kind": "line",
+    "name": "Caudalímetros de área variable",
+    "series": "Lectura de caudal en proceso",
+    "brand": "",
+    "family": "Caudal",
+    "image": "linea-turbina-area",
+    "imageAlt": "Caudalímetros de área variable; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Instrumentos de área variable para la medición de caudal de líquidos o gases, con selección de escala, construcción y conexión según la aplicación.",
+    "features": [
+      "Área variable",
+      "Líquidos o gases",
+      "Escala según aplicación"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Caudal de líquidos o gases"
+      ],
+      [
+        "Tecnología",
+        "Área variable"
+      ],
+      [
+        "Construcción",
+        "Seleccionar según medio y condiciones de proceso"
+      ],
+      [
+        "Conexiones",
+        "Opciones bridadas o sanitarias según versión"
+      ],
+      [
+        "Rango",
+        "Definir caudal y unidad de lectura requeridos"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Instrumentos de área variable para la medición de caudal de líquidos o gases, con selección de escala, construcción y conexión según la aplicación.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Lectura de caudal en líneas industriales.",
+      "Supervisión de servicios de líquidos y gases.",
+      "Selección de una escala de medición para la aplicación."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 2
+    }
+  },
+  {
+    "slug": "transmisores-nivel-ultrasonicos",
+    "kind": "line",
+    "name": "Transmisores de nivel ultrasónicos",
+    "series": "Medición continua sin contacto",
+    "brand": "",
+    "family": "Nivel",
+    "image": "esquema-nivel-ultrasonico",
+    "imageAlt": "Esquema del principio de medición: transmisores de nivel ultrasónicos",
+    "summary": "Medición continua de nivel por ultrasonido para tanques y depósitos. La selección considera el medio, la geometría y las condiciones de la superficie.",
+    "features": [
+      "Medición sin contacto",
+      "Tanques y depósitos",
+      "Selección según el medio"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Nivel"
+      ],
+      [
+        "Tecnología",
+        "Ultrasonido"
+      ],
+      [
+        "Instalación",
+        "Sobre el depósito, sin contacto con el medio"
+      ],
+      [
+        "Selección",
+        "Evaluar geometría, superficie y condiciones de proceso"
+      ],
+      [
+        "Rango",
+        "Consultar según modelo y aplicación"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Medición continua de nivel por ultrasonido para tanques y depósitos. La selección considera el medio, la geometría y las condiciones de la superficie.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Seguimiento de nivel en tanques.",
+      "Medición en depósitos con una superficie compatible.",
+      "Consulta de configuración según el medio y el montaje."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 3
+    }
+  },
+  {
+    "slug": "radares-nivel-onda-guiada",
+    "kind": "line",
+    "name": "Radares de nivel de onda guiada",
+    "series": "Medición con sonda",
+    "brand": "",
+    "family": "Nivel",
+    "image": "esquema-nivel-guiado",
+    "imageAlt": "Esquema del principio de medición: radares de nivel de onda guiada",
+    "summary": "Medición de nivel mediante una sonda en contacto con el proceso. La longitud, los materiales y la conexión se definen para cada aplicación.",
+    "features": [
+      "Medición con sonda",
+      "Selección de materiales",
+      "Configuración según depósito"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Nivel"
+      ],
+      [
+        "Tecnología",
+        "Radar de onda guiada"
+      ],
+      [
+        "Elemento de medición",
+        "Sonda; configuración según el medio"
+      ],
+      [
+        "Conexión",
+        "Seleccionar según depósito y proceso"
+      ],
+      [
+        "Rango y límites",
+        "Confirmar según modelo y aplicación"
+      ]
+    ],
+    "selectionNote": "La onda guiada utiliza una sonda. Consultanos por el modelo adecuado: las frecuencias y los alcances de los radares sin contacto del catálogo no corresponden automáticamente a esta línea.",
+    "documents": [],
+    "description": [
+      "Medición de nivel mediante una sonda en contacto con el proceso. La longitud, los materiales y la conexión se definen para cada aplicación.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Medición continua en tanques de proceso.",
+      "Selección de sonda según el medio y el depósito.",
+      "Integración de nivel en sistemas de control."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 3
+    }
+  },
+  {
+    "slug": "detectores-nivel-solidos-liquidos",
+    "kind": "line",
+    "name": "Detectores de nivel",
+    "series": "Sólidos y líquidos",
+    "brand": "",
+    "family": "Nivel",
+    "image": "linea-detectores",
+    "imageAlt": "Detectores de nivel; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Detección puntual de nivel con diferentes principios de funcionamiento. Alternativas para seleccionar según el material, el montaje y las condiciones del proceso.",
+    "features": [
+      "Detección puntual",
+      "Sólidos y líquidos",
+      "Distintas tecnologías"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Detección de nivel"
+      ],
+      [
+        "Versiones vibrantes",
+        "Barra u horquilla, según aplicación"
+      ],
+      [
+        "Otras tecnologías",
+        "Paleta rotativa, capacitancia, conductividad y admitancia"
+      ],
+      [
+        "Materiales y recubrimientos",
+        "Opciones PTFE, PFA, Tefzel, Halar o ECTFE según versión"
+      ],
+      [
+        "Selección",
+        "Confirmar corrosión, abrasión y condiciones de montaje"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Detección puntual de nivel con diferentes principios de funcionamiento. Alternativas para seleccionar según el material, el montaje y las condiciones del proceso.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Detección de nivel en tolvas y silos.",
+      "Señalización de nivel en depósitos de líquidos.",
+      "Aplicaciones con requerimientos de materiales o recubrimientos."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 3
+    },
+    "searchTerms": [
+      "switch",
+      "switches",
+      "sensores capacitivos",
+      "sensores conductivos",
+      "barra vibrante",
+      "horquilla vibrante",
+      "paleta rotativa"
+    ]
+  },
+  {
+    "slug": "analizadores-liquidos",
+    "kind": "line",
+    "name": "Analizadores de líquidos",
+    "series": "Medición y análisis en línea",
+    "brand": "",
+    "family": "Análisis de líquidos",
+    "image": "linea-analizadores",
+    "imageAlt": "Analizadores de líquidos; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Transmisores, sensores y accesorios para el análisis de líquidos. Selección por variable, condiciones de medición e integración con el proceso.",
+    "features": [
+      "Transmisores multiparamétricos",
+      "Sensores y accesorios",
+      "Análisis en línea"
+    ],
+    "parameters": [
+      [
+        "Función",
+        "Análisis de variables de líquidos"
+      ],
+      [
+        "Equipos",
+        "Transmisores multiparamétricos y sensores digitales"
+      ],
+      [
+        "Variables de consulta",
+        "pH, ORP, conductividad, oxígeno disuelto, turbidez y otras según sensor"
+      ],
+      [
+        "Accesorios",
+        "Muestreadores y portaelectrodos de extracción, según aplicación"
+      ],
+      [
+        "Opciones",
+        "Limpieza automática y electrodos selectivos según equipo"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Transmisores, sensores y accesorios para el análisis de líquidos. Selección por variable, condiciones de medición e integración con el proceso.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Control de variables en agua y procesos industriales.",
+      "Selección de sensores según la variable requerida.",
+      "Consulta por muestreo, montaje y mantenimiento del sistema."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 3
+    }
+  },
+  {
+    "slug": "analizadores-cloro-libre",
+    "kind": "line",
+    "name": "Analizadores de cloro libre",
+    "series": "Método DPD y análisis colorimétrico",
+    "brand": "",
+    "family": "Análisis de líquidos",
+    "image": "linea-cloro",
+    "imageAlt": "Analizadores de cloro libre; equipos de la línea presentados en el folleto de i-Solution",
+    "summary": "Análisis de cloro libre para plantas potabilizadoras mediante método DPD y medición colorimétrica. Configuración según el sistema de muestreo y el proceso.",
+    "features": [
+      "Cloro libre",
+      "Método DPD",
+      "Control de muestra"
+    ],
+    "parameters": [
+      [
+        "Variable",
+        "Cloro libre"
+      ],
+      [
+        "Método",
+        "DPD; análisis colorimétrico"
+      ],
+      [
+        "Muestreo",
+        "Opciones de ajuste de tiempo y detección de muestra"
+      ],
+      [
+        "Supervisión",
+        "Aviso de falta de agua o baja presión según versión"
+      ],
+      [
+        "Integración",
+        "Comunicación digital según equipo"
+      ]
+    ],
+    "selectionNote": "Las opciones y condiciones de trabajo dependen del modelo. Contanos el medio, el rango y la instalación para seleccionar el equipo y solicitar su documentación.",
+    "documents": [],
+    "description": [
+      "Análisis de cloro libre para plantas potabilizadoras mediante método DPD y medición colorimétrica. Configuración según el sistema de muestreo y el proceso.",
+      "La selección se realiza según la aplicación, los materiales en contacto y las condiciones del proceso. Consultanos por las versiones y los recursos de cada modelo."
+    ],
+    "applications": [
+      "Seguimiento de cloro libre en potabilización.",
+      "Análisis en línea con toma de muestra.",
+      "Integración con la supervisión del proceso."
+    ],
+    "gallery": [],
+    "sourceRef": {
+      "document": "folleto-isolution-cliente",
+      "page": 4
+    }
+  }
+]

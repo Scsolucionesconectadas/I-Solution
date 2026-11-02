@@ -1,0 +1,26 @@
+{
+  "name": "isolution-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "i-Solution: instrumentacion industrial y catalogo documental.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build-instrumental.mjs",
+    "build:demo": "node scripts/prepare-isolution-demo.mjs",
+    "dev": "node scripts/build-instrumental.mjs && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node --check scripts/build-instrumental.mjs && node --check scripts/prepare-isolution-demo.mjs && node --check apps/instrumental-solution/render.mjs && node --check apps/instrumental-solution/catalog-pages.mjs && node --check apps/instrumental-solution/institutional-pages.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "products:pdf": "python scripts/create-instrumental-sheets.py",
+    "catalog:pdf": "python scripts/create-instrumental-catalog.py",
+    "catalog:cover": "python scripts/render-instrumental-cover.py",
+    "seo:instrumental": "node scripts/prepare-instrumental-seo.mjs",
+    "deploy:demo": "npx --yes wrangler@4.156.1 deploy --config deploy/isolution-demo/wrangler.jsonc"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.qa/
+.wrangler/
+.playwright-mcp/
+.venv/
+.env
+.env.*
+*.log
+output/
+__pycache__/
+privado/

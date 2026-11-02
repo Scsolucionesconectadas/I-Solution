@@ -1,0 +1,15 @@
+{
+  "name": "i-Solution",
+  "email": "info@solution.com.ar",
+  "commercialEmail": "jmaradona@solution.com.ar",
+  "phone": "+54 9 341 6938211",
+  "contactEndpoint": "",
+  "whatsapp": "5493416938211",
+  "address": "Castellanos 317 · Rosario, Santa Fe · Argentina",
+  "families": [
+    { "name": "Caudal", "icon": "flow", "description": "Medición de flujo para líquidos y gases, según la tecnología y la aplicación." },
+    { "name": "Nivel", "icon": "level", "description": "Medición continua y detección puntual para tanques y depósitos." },
+    { "name": "Presión", "icon": "pressure", "description": "Transmisores para el seguimiento de la presión del proceso." },
+    { "name": "Análisis de líquidos", "icon": "analysis", "description": "Instrumentos y sensores para el control de las variables del agua." }
+  ]
+}

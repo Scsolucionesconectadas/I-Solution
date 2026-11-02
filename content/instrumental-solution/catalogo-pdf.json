@@ -1,0 +1,9 @@
+{
+  "contentSha256": "03e4c09e342bc87d97f9494052aa62a3e4400469adb193aadc9dfa383426da4e",
+  "pdfSha256": "7395843649f9edb9efaca069789dcb215d227cdee0eee2c64edf4cd307001dea",
+  "pages": 12,
+  "entries": 17,
+  "lines": 11,
+  "date": "2026-11-01",
+  "generator": "scripts/create-instrumental-catalog.py"
+}

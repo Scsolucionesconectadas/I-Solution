@@ -1,0 +1,31 @@
+{
+  "company": {
+    "intro": "Somos una empresa argentina dedicada a la instrumentación, el control y la automatización de procesos industriales.",
+    "history": "Nuestra historia comienza en 2016, a partir de la experiencia técnica y comercial de su fundador. Desde entonces, acercamos instrumentos de medición y asistencia a empresas del mercado nacional.",
+    "focus": "Combinamos provisión de instrumentos, asesoramiento y servicios técnicos para las necesidades de cada aplicación. La cercanía con nuestros clientes y el conocimiento del proceso orientan nuestra propuesta.",
+    "mission": "Acercar soluciones de instrumentación industrial con atención personalizada y foco en las necesidades del proceso.",
+    "vision": "Ser una referencia en tecnología industrial por la calidad de las soluciones y la innovación aplicada.",
+    "values": ["Innovación", "Calidad", "Compromiso", "Integridad", "Trabajo en equipo"]
+  },
+  "proposal": [
+    {"title":"Tecnología para tu aplicación", "icon":"level", "text":"La variable, el medio y las condiciones de trabajo orientan la elección del instrumento. Nuestra oferta reúne distintas tecnologías de medición y control."},
+    {"title":"Soluciones a medida", "icon":"pressure", "text":"Integramos instrumentos y asistencia técnica para atender necesidades específicas de cada proceso industrial."},
+    {"title":"Medición y automatización", "icon":"flow", "text":"Relacionamos la información del proceso con el control: equipos de medición, ingeniería y programación de PLC."},
+    {"title":"Atención cercana", "icon":"chat", "text":"El contacto directo permite conversar sobre la aplicación, consultar documentación y solicitar asistencia sobre los equipos."}
+  ],
+  "services": [
+    {"id":"laboratorio","name":"Servicio técnico de laboratorio","image":"laboratorio","summary":"Calibración y mantenimiento de instrumentos para la medición y el control industrial.","items":["Calibración de instrumentos","Mantenimiento de equipos","Consulta por el instrumento y el alcance requerido"]},
+    {"id":"planta","name":"Servicio técnico en planta","image":"planta","summary":"Asistencia técnica en las instalaciones del cliente para atender necesidades de los equipos y del proceso.","items":["Asistencia sobre equipos instalados","Intervenciones técnicas en planta","Consulta por las condiciones de la instalación"]},
+    {"id":"calibracion","name":"Contratos de calibración","image":"calibracion","summary":"Programas de mantenimiento preventivo y correctivo adaptados a las necesidades de cada cliente.","items":["Programas de calibración","Mantenimiento preventivo y correctivo","Alcance acordado según los equipos"]},
+    {"id":"automatizacion","name":"Ingeniería y programación de PLC","image":"automatizacion","summary":"Desarrollo de soluciones de automatización y control para aplicaciones industriales.","items":["Ingeniería de aplicación","Programación de PLC","Soluciones de control según el proyecto"]},
+    {"id":"analiticos","name":"Mantenimiento de equipos analíticos en línea","image":"analiticos","summary":"Asistencia y mantenimiento de equipos para el seguimiento de variables en procesos de análisis de líquidos.","items":["Mantenimiento de equipos analíticos","Instrumentación para análisis en línea","Consulta por la variable y el modelo instalado"]}
+  ],
+  "team": [
+    {"id":"julian-maradona","name":"Julián Maradona","initials":"JM","role":"Gerente","photo":null},
+    {"id":"carlos-langone","name":"Carlos Langone","initials":"CL","role":"Departamento de Ventas","photo":null},
+    {"id":"lourdes-maradona","name":"Lourdes Maradona","initials":"LM","role":"Departamento de Ventas","photo":null},
+    {"id":"pablo-rodriguez","name":"Pablo Rodríguez","initials":"PR","role":"Servicio Técnico","photo":null},
+    {"id":"eduardo-sandoval","name":"Eduardo Sandoval","initials":"ES","role":"Servicio Técnico","photo":null},
+    {"id":"elias-alarcon","name":"Elías Alarcón","initials":"EA","role":"Servicio Técnico","photo":null}
+  ]
+}

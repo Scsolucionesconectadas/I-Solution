@@ -1,0 +1,8 @@
+# Preserve the byte-based fingerprints and original document hashes across OS.
+content/instrumental-solution/*.json -text whitespace=cr-at-eol
+*.pdf binary
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.mp4 -text
+*.woff2 -text

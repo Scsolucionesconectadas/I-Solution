@@ -1,0 +1,74 @@
+{
+  "contentSha256": "0c95887d01b84024e4af6918b70d9e54fad2cd64e2ff937f1e641eb8b7cb7f7f",
+  "products": {
+    "radar-nivel-80-120-ghz": {
+      "file": "ficha-radar-nivel-80-120-ghz.pdf",
+      "pdfSha256": "5790c58fee9ec7178d412d8635da228bbdf0d53addbc2f168f49cb75b2dfe667"
+    },
+    "radar-nivel-26-ghz": {
+      "file": "ficha-radar-nivel-26-ghz.pdf",
+      "pdfSha256": "df9b606f70bfdfbf7961e22b9ba8edc18b3b31ad29982bfaab012096543202c8"
+    },
+    "caudalimetro-electromagnetico-sanitario": {
+      "file": "ficha-caudalimetro-electromagnetico-sanitario.pdf",
+      "pdfSha256": "3d945b8c371ee62635e2713ae2b99d8ea3c69a9db5ed8c96f1572346261628ca"
+    },
+    "programador-siemens": {
+      "file": "ficha-programador-siemens.pdf",
+      "pdfSha256": "9f285955bd0ad1e9932aae7d4152a8409437ce33cbdaf380f1f240bb703525d5"
+    },
+    "transmisor-presion-smart": {
+      "file": "ficha-transmisor-presion-smart.pdf",
+      "pdfSha256": "a7a9c33d6edd8e750499e5296516397a7d960b7b876269650e5730becdcf84e4"
+    },
+    "transmisor-presion-smart-alta-temperatura": {
+      "file": "ficha-transmisor-presion-smart-alta-temperatura.pdf",
+      "pdfSha256": "3a10974d403a6beb6bf3137b00886d60c3b76c73477dc45eef94f91a44e23805"
+    },
+    "caudalimetros-electromagneticos": {
+      "file": "ficha-caudalimetros-electromagneticos.pdf",
+      "pdfSha256": "366418b59afd6af2285e9ad466c95a3b87e1844bebfbea4011333310c6ac238d"
+    },
+    "caudalimetros-vortex": {
+      "file": "ficha-caudalimetros-vortex.pdf",
+      "pdfSha256": "79ac3075b0f6b6e9657b5a8481f75bac5294ffd005db61f4d0648fab01855182"
+    },
+    "caudalimetros-ultrasonicos": {
+      "file": "ficha-caudalimetros-ultrasonicos.pdf",
+      "pdfSha256": "17430b34eab71102f4ced6ebf267d64606eb978f0c51820d391901cd72438d31"
+    },
+    "caudalimetros-dispersion-termica": {
+      "file": "ficha-caudalimetros-dispersion-termica.pdf",
+      "pdfSha256": "aa3c80756343790d0cfbc9aa7b69b010cd0fc019d3133719252e4ae1505bd324"
+    },
+    "caudalimetros-turbina": {
+      "file": "ficha-caudalimetros-turbina.pdf",
+      "pdfSha256": "cf87c3c88fc58367b24f2bd2d83850b70ea6c722ee5af064c928fc9972e21874"
+    },
+    "caudalimetros-area-variable": {
+      "file": "ficha-caudalimetros-area-variable.pdf",
+      "pdfSha256": "83e5c51db8f1949adda0c887f828a8fda1f1122a4c09059f22886146757d3315"
+    },
+    "transmisores-nivel-ultrasonicos": {
+      "file": "ficha-transmisores-nivel-ultrasonicos.pdf",
+      "pdfSha256": "977281e8c8c60f83a39a3196ae5b3a0cd64af2c4ddf82d13213603818b6fe26e"
+    },
+    "radares-nivel-onda-guiada": {
+      "file": "ficha-radares-nivel-onda-guiada.pdf",
+      "pdfSha256": "01cca4e4bf87012e7d49870a12b65602f566d6045ccee9a2331c8ec1b51752bd"
+    },
+    "detectores-nivel-solidos-liquidos": {
+      "file": "ficha-detectores-nivel-solidos-liquidos.pdf",
+      "pdfSha256": "452f39c8256a2440d445490997c502cd72be240e5fb654d7cf43ef8a291617b9"
+    },
+    "analizadores-liquidos": {
+      "file": "ficha-analizadores-liquidos.pdf",
+      "pdfSha256": "f3f0fe5a511e70dbe91e2360f8fb45eab68959117ec340c8d970fe4c8992bcdb"
+    },
+    "analizadores-cloro-libre": {
+      "file": "ficha-analizadores-cloro-libre.pdf",
+      "pdfSha256": "18a251e8967c6aa20e7d30b55fad5e683543f8e82f17a3a90c048b4fc3f6c6b1"
+    }
+  },
+  "generator": "scripts/create-instrumental-sheets.py"
+}

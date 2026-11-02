@@ -1,0 +1,14 @@
+{
+  "name": "isolution-demo",
+  "compatibility_date": "2026-11-02",
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "isolution-demo.scsolucionesconectadas.com.ar", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "../../.qa/cloudflare/isolution-demo",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

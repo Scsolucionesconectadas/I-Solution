@@ -1,0 +1,275 @@
+{
+  "images": {
+    "empresa-hero": "empresa-hero-industrial-v1.png",
+    "contacto-hero": "contacto-hero-industrial-v1.png",
+    "equipo-hero": "equipo-hero-industrial-v1.png",
+    "servicio-laboratorio": "servicio-laboratorio-v2.png",
+    "servicio-planta": "servicio-planta-v2.png",
+    "servicio-calibracion": "servicio-calibracion-v2.png",
+    "servicio-automatizacion": "servicio-automatizacion-v2.png",
+    "servicio-analiticos": "servicio-analiticos-v2.png",
+    "inicio-hero": "inicio-hero-proceso-v1.png"
+  },
+  "imageWidths": {
+    "empresa-hero": [
+      960,
+      1600,
+      1920
+    ],
+    "contacto-hero": [
+      960,
+      1600,
+      1920
+    ],
+    "equipo-hero": [
+      960,
+      1600,
+      1920
+    ],
+    "servicio-laboratorio": [
+      480,
+      800,
+      1200,
+      1680
+    ],
+    "servicio-planta": [
+      480,
+      800,
+      1200,
+      1680
+    ],
+    "servicio-calibracion": [
+      480,
+      800,
+      1200,
+      1680
+    ],
+    "servicio-automatizacion": [
+      480,
+      800,
+      1200,
+      1680
+    ],
+    "servicio-analiticos": [
+      480,
+      800,
+      1200,
+      1680
+    ],
+    "inicio-hero": [
+      960,
+      1600,
+      1920
+    ]
+  },
+  "companyHero": {
+    "title": "i-Solution.\nInstrumentación\npara la industria.",
+    "lead": "Somos una empresa argentina de instrumentación y automatización de procesos. Acercamos equipos de medición, asesoramiento y asistencia técnica para cada aplicación industrial."
+  },
+  "closing": {
+    "inicio": {
+      "variant": "feature",
+      "label": "Asesoramiento en instrumentación",
+      "title": "Elegí el instrumento\npara tu proceso.",
+      "text": "Contanos qué necesitás medir, el medio y las condiciones de trabajo. Consultá por la tecnología y la configuración para tu aplicación.",
+      "action": "Pedir asesoramiento",
+      "target": "contacto/?motivo=asesoramiento#formulario"
+    },
+    "propuesta": {
+      "variant": "dark",
+      "label": "Tu aplicación industrial",
+      "title": "Una necesidad concreta.\nUna consulta técnica.",
+      "text": "Si ya tenés una especificación o querés evaluar alternativas de medición y control, conversemos sobre tu proyecto.",
+      "action": "Consultar una aplicación",
+      "target": "contacto/?motivo=asesoramiento#formulario"
+    },
+    "servicios": {
+      "variant": "service",
+      "label": "Calibración y mantenimiento",
+      "title": "Asistencia para tus\ninstrumentos industriales.",
+      "text": "Indicá la marca, el modelo y el servicio que necesitás. Consultá por calibración, mantenimiento o automatización.",
+      "action": "Consultar al servicio técnico",
+      "target": "contacto/?motivo=servicio#formulario"
+    },
+    "descargas": {
+      "variant": "support",
+      "label": "Documentación por modelo",
+      "title": "El manual que necesita tu equipo.",
+      "text": "Compartí la marca y el modelo para consultar por una ficha técnica, un manual o recursos de configuración adicionales.",
+      "action": "Solicitar documentación",
+      "target": "contacto/?consulta=documentacion#formulario"
+    }
+  },
+  "meta": {
+    "": {
+      "title": "Instrumentación industrial y control | i-Solution",
+      "description": "Instrumentos de caudal, nivel y presión. Asesoramiento, calibración y servicios de automatización industrial. Conocé i-Solution en Rosario, Santa Fe."
+    },
+    "productos/": {
+      "title": "Instrumentos de medición industrial | i-Solution",
+      "description": "Explorá caudalímetros, transmisores y detectores de nivel, equipos de presión y analizadores de líquidos. Líneas de productos, características y documentación."
+    },
+    "quienes-somos/": {
+      "title": "Empresa de instrumentación industrial | i-Solution",
+      "description": "Somos una empresa argentina de instrumentación, control y automatización de procesos. Conocé nuestra historia, misión y valores. i-Solution, Rosario."
+    },
+    "nuestra-propuesta/": {
+      "title": "Soluciones de medición y automatización | i-Solution",
+      "description": "Instrumentos y asistencia técnica para la medición y el control de procesos industriales. Conocé nuestra propuesta y consultá por tu aplicación."
+    },
+    "servicios/": {
+      "title": "Calibración y servicio técnico industrial | i-Solution",
+      "description": "Servicio técnico en laboratorio y planta, calibración de instrumentos, programación de PLC y mantenimiento de equipos analíticos. Consultá por tu equipo."
+    },
+    "equipo/": {
+      "title": "Equipo de ventas y servicio técnico | i-Solution",
+      "description": "Conocé al equipo de gerencia, ventas y servicio técnico de i-Solution. Asesoramiento para instrumentos de medición, control y automatización industrial."
+    },
+    "contacto/": {
+      "title": "Contacto y cotizaciones de instrumentos | i-Solution",
+      "description": "Consultá por instrumentos de medición, cotizaciones, documentación y servicios técnicos. Encontrá los contactos y la ubicación de i-Solution en Rosario."
+    },
+    "catalogo/": {
+      "title": "Catálogo de instrumentación industrial | i-Solution",
+      "description": "Recorré las líneas de medición de i-Solution. Explorá instrumentos de nivel, caudal y presión, y descargá el catálogo comercial de equipos y servicios."
+    },
+    "descargas/": {
+      "title": "Manuales y fichas técnicas de instrumentos | i-Solution",
+      "description": "Encontrá manuales, fichas técnicas y guías de configuración de radares y caudalímetros. Consultá documentación por instrumento, marca y modelo."
+    },
+    "productos/radar-nivel-80-120-ghz/": {
+      "title": "Radar de nivel 80/120 GHz | i-Solution",
+      "description": "Radar de nivel sin contacto, serie 80/120 GHz. Consultá características generales, manuales y configuración para la medición de líquidos y sólidos."
+    },
+    "productos/radar-nivel-26-ghz/": {
+      "title": "Radar de nivel 26 GHz | i-Solution",
+      "description": "Conocé el radar de nivel de la serie 26 GHz, con antena de corneta. Documentación técnica, video de funcionamiento y consulta por la versión de tu equipo."
+    },
+    "productos/caudalimetro-electromagnetico-sanitario/": {
+      "title": "Caudalímetro electromagnético sanitario DN50 | i-Solution",
+      "description": "Caudalímetro electromagnético sanitario DN50 con recubrimiento PFA y comunicación Modbus. Consultá la configuración, sus características y el manual."
+    },
+    "productos/programador-siemens/": {
+      "title": "Programador Siemens para SITRANS | i-Solution",
+      "description": "Programador portátil Siemens para instrumentos de nivel SITRANS. Consultá su referencia y verificá la compatibilidad con el modelo de tu transmisor."
+    },
+    "productos/transmisor-presion-smart/": {
+      "title": "Transmisor de presión Smart con HART | i-Solution",
+      "description": "Transmisor de presión Smart con salida 4–20 mA y comunicación HART. Conocé las características de la configuración y consultá por tu aplicación."
+    },
+    "productos/transmisor-presion-smart-alta-temperatura/": {
+      "title": "Transmisor de presión para alta temperatura | i-Solution",
+      "description": "Transmisor de presión Smart para aplicaciones de alta temperatura, con salida 4–20 mA y HART. Consultá la configuración y las condiciones de proceso."
+    }
+  },
+  "about": {
+    "title": "Innovación, precisión y compromiso para la industria.",
+    "paragraphs": [
+      "Instrumental Solution SRL es una empresa nacional con más de 8 años de trayectoria en el mercado de la instrumentación, control y automatización de procesos industriales.",
+      "Hemos crecido sostenidamente, estableciendo vínculos estratégicos con proveedores internacionales y consolidando nuestra reputación en el mercado."
+    ],
+    "metrics": [
+      {
+        "value": 8,
+        "suffix": "",
+        "label": "Años en el mercado",
+        "prefix": "+"
+      },
+      {
+        "value": 150,
+        "suffix": "",
+        "label": "Clientes industriales atendidos",
+        "prefix": "+"
+      },
+      {
+        "value": 350,
+        "suffix": "",
+        "label": "Proyectos completados",
+        "prefix": "+"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "Clientes satisfechos"
+      }
+    ]
+  },
+  "history": {
+    "lead": "La empresa nació en 2016 a partir de la experiencia técnica y comercial de su fundador. Desde entonces, acompaña a empresas del mercado nacional.",
+    "text": "Hoy, su oferta reúne provisión de instrumentos, asesoramiento y servicios técnicos para distintas aplicaciones industriales."
+  },
+  "proposal": [
+    {
+      "title": "Elegir la tecnología",
+      "icon": "level",
+      "text": "Nivel, caudal y presión: explorá las líneas de medición y consultá por su aplicación en líquidos, gases o sólidos."
+    },
+    {
+      "title": "Consultar la configuración",
+      "icon": "pressure",
+      "text": "Rango, materiales, conexión y señales. Indicá las condiciones del proceso para consultar por la versión del equipo."
+    },
+    {
+      "title": "Acceder a los documentos",
+      "icon": "file",
+      "text": "Cada instrumento reúne sus características, ficha y documentación disponible, junto con fotografías y videos cuando los tiene."
+    },
+    {
+      "title": "Asistencia para el equipo",
+      "icon": "chat",
+      "text": "Laboratorio, intervenciones en planta, calibración, mantenimiento e ingeniería de automatización. Consultá el servicio según tu necesidad."
+    }
+  ],
+  "services": {
+    "laboratorio": {
+      "summary": "Calibración y mantenimiento del instrumento según sus características y la necesidad de servicio.",
+      "items": [
+        "Equipos de medición y control",
+        "Consulta por marca y modelo"
+      ],
+      "action": "Consultar al laboratorio",
+      "image": "servicio-laboratorio",
+      "imageAlt": "Diagnóstico de un transmisor de proceso con instrumental de banco en laboratorio."
+    },
+    "planta": {
+      "summary": "Asistencia en las instalaciones del cliente para equipos e instrumentación de proceso.",
+      "items": [
+        "Instrumentos instalados",
+        "Intervenciones técnicas en planta"
+      ],
+      "action": "Consultar asistencia en planta",
+      "image": "servicio-planta",
+      "imageAlt": "Asistencia sobre un transmisor instalado en una planta con comunicador portátil."
+    },
+    "calibracion": {
+      "summary": "Programas de calibración y mantenimiento adaptados a los equipos de cada cliente.",
+      "items": [
+        "Mantenimiento preventivo y correctivo",
+        "Alcance según los instrumentos"
+      ],
+      "action": "Consultar por calibración",
+      "image": "servicio-calibracion",
+      "imageAlt": "Calibración de presión con bomba manual, manómetro de referencia y transmisor."
+    },
+    "automatizacion": {
+      "summary": "Ingeniería de aplicación y programación para la automatización de procesos industriales.",
+      "items": [
+        "Programación de PLC",
+        "Integración de medición y control"
+      ],
+      "action": "Consultar por automatización",
+      "image": "servicio-automatizacion",
+      "imageAlt": "Programación de un PLC y módulos de entradas y salidas desde una computadora."
+    },
+    "analiticos": {
+      "summary": "Mantenimiento de instrumentación para el seguimiento de variables del agua y otros procesos de análisis de líquidos.",
+      "items": [
+        "Equipos analíticos en línea",
+        "Consulta por variable y modelo"
+      ],
+      "action": "Consultar mantenimiento analítico",
+      "image": "servicio-analiticos",
+      "imageAlt": "Mantenimiento de sondas y celdas de análisis de líquidos en un panel de muestreo."
+    }
+  }
+}
