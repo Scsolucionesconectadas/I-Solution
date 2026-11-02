@@ -180,6 +180,14 @@ test('manuales y videos filtran recursos reales y se combinan con búsqueda y fa
   assert.deepEqual(productResources({documents:[{title:'Manual de instalación'}],videos:[{}]}),{manual:true,video:true});
 });
 
+test('la búsqueda combina palabras aunque el nombre incluya términos intermedios',()=>{
+  const product={family:'Nivel',search:'i-Solution Radar de nivel Serie 80/120 GHz',manual:true};
+  assert.equal(matchesProduct(product,{query:'radar 80',family:'',resource:''}),true);
+  assert.equal(matchesProduct(product,{query:'80 RADAR',family:'Nivel',resource:'manual'}),true);
+  assert.equal(matchesProduct(product,{query:'radar presion',family:'',resource:''}),false);
+  assert.equal(matchesProduct(product,{query:'radar 80',family:'Caudal',resource:''}),false);
+});
+
 test('agrupar características conserva cada fila y valor técnico exactamente una vez',async()=>{
   const products=JSON.parse(await readFile(join(root,'content/instrumental-solution/productos.json'),'utf8'));
   for(const p of products){

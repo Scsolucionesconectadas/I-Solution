@@ -1,5 +1,13 @@
 # Contexto de i-Solution
 
+## 02/11/2026 — Actualización pública autorizada
+
+El usuario solicitó publicar las mejoras locales. [[15_Actualizacion_Demo_Publica]] registra alcance y verificación de esta publicación; tiene prioridad sobre el estado local histórico de [[14_Funcionalidad_y_Calidad]]. Correo apagado y noindex conservados; dominio final/operación ampliada pendientes.
+
+## 02/11/2026 — Funcionalidad y calidad locales
+
+[[14_Funcionalidad_y_Calidad]] registra las correcciones y la revisión aprobada hasta el punto 4. 22 pruebas/check/build:demo correctos; auditoría conjunta de 31 páginas/124 casos responsive. Cambios locales sin commit/push: demo pública aún conserva su versión anterior. Copia local servida en http://127.0.0.1:4175/instrumental-solution/ sin envío. Puntos 5 (operación) y 6 (dominio) diferidos. Material del cliente y activación/prueba real de correo pendientes, sin envíos. [[10_UI_UX_Diseno]].
+
 02/11/2026, America/Buenos_Aires. Fuente local C:/Proyectos/I-Solution; remoto https://github.com/Scsolucionesconectadas/I-Solution. Proyecto independiente de LMR y del monorepo anterior.
 
 ## Objetivo y estado

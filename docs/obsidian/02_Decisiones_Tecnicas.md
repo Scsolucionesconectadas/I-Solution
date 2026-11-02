@@ -1,5 +1,15 @@
 # Decisiones técnicas
 
+## 2026-11-02 — Preparación productiva hasta el punto 4
+
+**Decisión:** validación progresiva sobre HTML nativo, manejo de borradores en memoria y comprobaciones con transporte simulado. Conservar diseño, JSON/PDF y stack existentes; sin dependencias runtime nuevas.
+
+**Motivo:** corregir fallos reales y preparar funciones para producción, con operación y dominio aplazados por el usuario y sin autorización de envío real.
+
+**Impacto:** apps/instrumental-solution/catalogue-model.js, contact-context.js, contact.js, form-validation.js, content-validation.mjs, components.mjs, polish.css; scripts/build-instrumental.mjs; tests/content-validation.test.mjs, instrumental.test.mjs e instrumental-contact.test.mjs. Detalle/validaciones en [[14_Funcionalidad_y_Calidad]].
+
+**Alternativas:** incorporar una biblioteca de formularios o backend ahora; se mantiene la solución nativa por suficiencia y menor complejidad.
+
 ## 2026-11-02 — Repositorio y demo independientes
 
 **Decisión:** i-Solution pasa a C:/Proyectos/I-Solution y su repo, con Worker isolution-demo y publicación de main por Cloudflare. No cambiar la web de LMR.

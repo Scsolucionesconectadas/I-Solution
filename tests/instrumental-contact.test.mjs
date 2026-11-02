@@ -45,3 +45,12 @@ test('activación, límite y caída de red se distinguen y no se reintentan auto
   await assert.rejects(submitConsultation(endpoint,fields,{fetchImpl:async()=>{calls++;throw new Error('offline');}}),code('NETWORK'));
   assert.equal(calls,1);
 });
+
+test('una solicitud que agota el tiempo se cancela sin repetir el envío',async()=>{
+  let calls=0;
+  await assert.rejects(submitConsultation(endpoint,fields,{timeoutMs:10,fetchImpl:async(_url,{signal})=>{
+    calls++;
+    return new Promise((_resolve,reject)=>signal.addEventListener('abort',()=>reject(new Error('cancelado')),{once:true}));
+  }}),code('TIMEOUT'));
+  assert.equal(calls,1);
+});

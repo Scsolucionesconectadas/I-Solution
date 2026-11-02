@@ -1,5 +1,9 @@
 # i-Solution: repositorio independiente
 
+- Publicación autorizada02/11/2026: el usuario pidió subir las mejoras locales a la demo pública; seguir docs/obsidian/15_Actualizacion_Demo_Publica.md y verificar commit/check/URL. Conserva prohibiciones de envío/activación/indexación y dominio final; no cambiar plan o DNS por esta actualización.
+
+- Alcance vigente02/11/2026: implementados localmente los puntos 1–4; leer docs/obsidian/14_Funcionalidad_y_Calidad.md. Puntos 5/6 diferidos; no se hizo push/deploy en esta sesión. 22 pruebas correctas. Mantener envío vacío en copias de revisión; npm run dev puede usar el endpoint fuente. No hacer envíos/activaciones ni tratar la aceptación simulada como recepción real.
+
 - Fuente local: C:/Proyectos/I-Solution. Remoto autorizado: https://github.com/Scsolucionesconectadas/I-Solution. No modificar LMR, ERP o archivos Python ajenos.
 - Leer docs/obsidian/00_Contexto_Proyecto.md y 05_Pendientes.md. Actualizar notas relevantes con cada cambio.
 - apps/instrumental-solution y content/instrumental-solution contienen solo este sitio; fuentes/logos de agencia fueron independizados. shared/html.mjs es propio de este repo.

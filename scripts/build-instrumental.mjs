@@ -6,6 +6,7 @@ import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { layout, pages } from '../apps/instrumental-solution/render.mjs';
 import {contactEndpoint,RECIPIENT} from '../apps/instrumental-solution/contact-model.js';
+import {validateCatalogue} from '../apps/instrumental-solution/content-validation.mjs';
 
 const projectRoot = resolve(import.meta.dirname, '..');
 export async function buildInstrumental(input = {}) {
@@ -21,17 +22,17 @@ export async function buildInstrumental(input = {}) {
   const target = join(outDir, basePath.slice(1));
   // Never clear the shared artifact root: LMR may already be built alongside this site.
   if ((target !== outDir && !target.startsWith(outDir + sep)) || relative(outDir, target).split(sep).includes('..')) throw new Error('Destino de i-Solution fuera del artefacto.');
-  await rm(target, { force: true, recursive: true });
   const assets = join(target, 'assets');
-  await mkdir(join(assets, 'documentos'), { recursive: true });
   const app = join(projectRoot, 'apps/instrumental-solution');
   const load = name => readFile(join(projectRoot, 'content/instrumental-solution', `${name}.json`), 'utf8').then(JSON.parse);
   const [site, products, institution, registry, copy] = await Promise.all(['site', 'productos', 'institucional', 'imagenes', 'textos'].map(load));
   const contact=await load('contacto');
   contact.endpoint=contactEndpoint(input.contactEndpoint ?? contact.endpoint);
   if(contact.recipient!==RECIPIENT||contact.recipient!==site.email||typeof contact.subject!=='string'||contact.subject.length>120||/[\r\n]/.test(contact.subject))throw new Error('Revisar la configuración institucional de contacto de i-Solution.');
-  if(!Array.isArray(products)||!products.length||new Set(products.map(p=>p.slug)).size!==products.length) throw new Error('El catálogo requiere instrumentos con slug único.');
+  validateCatalogue(products,registry);
   if(Object.keys(copy.images).some(key=>Object.hasOwn(registry,key))) throw new Error('Las imágenes editoriales no deben sustituir recursos del catálogo.');
+  await rm(target, { force: true, recursive: true });
+  await mkdir(join(assets, 'documentos'), { recursive: true });
   const images={};
   // Source files and product associations are explicit; never enlarge small source photos.
   for(const [key,file] of Object.entries({...registry,...copy.images})) {
@@ -81,6 +82,12 @@ export async function buildInstrumental(input = {}) {
       if(video.poster&&!Object.hasOwn(images,video.poster))throw new Error('Portada de video no registrada.');
       await mkdir(join(assets,'videos'),{recursive:true});
       await cp(join(app,'assets/video',video.file),join(assets,'videos',video.file));
+      for(const track of video.captions??[]){
+        const source=join(app,'assets/video',track.file);
+        const text=await readFile(source,'utf8');
+        if(!/^\uFEFF?WEBVTT(?:[ \t].*)?(?:\r?\n|$)/.test(text))throw new Error(`Subtítulo WebVTT inválido: ${track.file}`);
+        await cp(source,join(assets,'videos',track.file));
+      }
     }
     const sheet=sheets[product.slug];
     if(sheet){
@@ -104,7 +111,7 @@ export async function buildInstrumental(input = {}) {
     await sharp(prepared).autoOrient().resize({width:240,withoutEnlargement:true}).webp({quality:88,lossless:true,smartSubsample:true}).toFile(join(assets,`agency-${agency}.webp`));
   }
   await cp(join(projectRoot,'apps/instrumental-solution/assets/fonts'),join(assets,'fonts'),{recursive:true});
-  for (const name of ['site.css','website.css','polish.css','app.js','counters.js','counter-model.js','product-media.js','catalogue.js','catalogue-model.js','contact-context.js','contact.js','contact-model.js']) await cp(join(app,name),join(assets,name));
+  for (const name of ['site.css','website.css','polish.css','app.js','counters.js','counter-model.js','product-media.js','catalogue.js','catalogue-model.js','contact-context.js','contact.js','contact-model.js','form-validation.js']) await cp(join(app,name),join(assets,name));
   await writeFile(join(assets,'favicon.svg'),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#102b47"/><path d="M15 17h7l-4 15h-7z" fill="#00a4e9"/><circle cx="21" cy="9" r="4" fill="#00a4e9"/></svg>');
   let cataloguePdf='';
   let catalogueCover;

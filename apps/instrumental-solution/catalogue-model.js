@@ -6,5 +6,7 @@ export function catalogueState(url,families) {
   return {query:(params.get('q')??'').slice(0,100),family:families.includes(family)?family:'',documents:params.get('documentos')==='1',resource:['manual','video'].includes(resource)?resource:''};
 }
 export function matchesProduct(product,state) {
-  return (!state.family||product.family===state.family)&&(!state.documents||product.documents)&&(!state.resource||product[state.resource]===true)&&normalizeSearch(product.search).includes(normalizeSearch(state.query));
+  const terms=normalizeSearch(state.query).split(/\s+/).filter(Boolean);
+  const text=normalizeSearch(product.search);
+  return (!state.family||product.family===state.family)&&(!state.documents||product.documents)&&(!state.resource||product[state.resource]===true)&&terms.every(term=>text.includes(term));
 }

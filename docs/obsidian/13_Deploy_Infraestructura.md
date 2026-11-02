@@ -1,5 +1,9 @@
 # Publicación
 
+## 02/11/2026 — Actualización de mejoras autorizada
+
+Publicar [[14_Funcionalidad_y_Calidad]] mediante el flujo main → isolution-demo. Ver [[15_Actualizacion_Demo_Publica]] para el resultado vigente. Conservar endpoint vacío/noindex; no modificar dominios finales o servicio de correo.
+
 02/11/2026. Demo autorizada https://isolution-demo.scsolucionesconectadas.com.ar/, Worker isolution-demo; raíz /, auto-trailing-slash y404-page. Zona SC existente; no cambiar raíz, correo ni servidores DNS.
 
 Repositorio https://github.com/Scsolucionesconectadas/I-Solution, main. Integración oficial Cloudflare Workers and Pages limitada a LRM e I-Solution. No se autoriza acceso general a todos los repositorios.
